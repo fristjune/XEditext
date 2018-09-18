@@ -1,9 +1,21 @@
+Add it in your root build.gradle at the end of repositories:
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.fristjune:ZhoujianDemo:-SNAPSHOT'
+	}
 # XEditText
--��������ı�����ֻ�����Ҳࡣ�����Ŀɻ����ǿɶ��Ƶġ�
--��ȫ�ʺ��������볡�����л�����Ҳ�ǿɶ��Ƶġ�
--�������Զ���**�ָ���**��**ģʽ**�Էָ��ı����ݡ����ǣ����ơ����к�ճ�����ı����ݽ������������õ�**�ָ���**��**ģʽ**��Ӱ�졣
--�ܹ����ñ���������롣
+-清除所有文本内容只需点击右侧。清晰的可绘制是可定制的。
+-完全适合密码输入场景。切换绘制也是可定制的。
+-您可以自定义**分隔符**或**模式**以分隔文本内容。但是，复制、剪切和粘贴的文本内容将不再受您设置的**分隔符**或**模式**的影响。
+-能够禁用表情符号输入。
 
 ## Usage
 ```xml
