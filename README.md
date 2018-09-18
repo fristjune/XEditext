@@ -9,7 +9,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.fristjune:ZhoujianDemo:-SNAPSHOT'
+	        implementation 'com.github.fristjune:XEditext:1.0.0'
 	}
 # XEditText
 -清除所有文本内容只需点击右侧。清晰的可绘制是可定制的。
